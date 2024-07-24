@@ -1,3 +1,5 @@
+package DSA.Binary_search;
+
 import java.util.Arrays;
 
 public class BinaryMatrix2 {

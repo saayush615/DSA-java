@@ -1,3 +1,5 @@
+package DSA.Binary_search;
+
 public class Binarysearch {
     public static void main(String[] args) {
         int[] ar ={23,12,56,55,100,125,556};

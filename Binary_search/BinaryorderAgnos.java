@@ -1,3 +1,5 @@
+package DSA.Binary_search;
+
 public class BinaryorderAgnos {
     public static void main(String[] args) {
         int[] ar ={500,120,110,100,26,22,10};

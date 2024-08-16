@@ -24,14 +24,14 @@ public class Prime_no {
 //            System.out.println(i + " " + isprime(i));
 //        }
 
-        //Q3:(brute force)
+//        Q3:(brute force)
 //        int n = 20;
 //        for (int i =1; i <= n ; i++){
 //            if(isprime2(i)){
 //                System.out.print(i + " ,");
 //            }
 //        }
-
+//
 //        Q3:(optimal)(seive of erathonasis)
         int n = 40;
         boolean[] primes = new boolean[n+1];

@@ -14,6 +14,7 @@ public class Recursion2 {
         System.out.println(n);
 
         // recursive call:
+        // this called tail recursion -> this is the last funciton call
         print(n+1); // -> if you are calling a function again and again, you can treat it as a seprate call in the stack
     }
 }

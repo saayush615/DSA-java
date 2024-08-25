@@ -4,12 +4,12 @@ public class string1 {
     public static void main(String[] args) {
 //        String a = "Aayush";
 //        String b = "Aayush";
-//        System.out.println(a==b); -- > true
+//        System.out.println(a==b); //-- > true
 
 //        String a = new String("Aayush");
 //        String b = new String("Aayush");
-//        System.out.println(a==b); --> false
-//        System.out.println(a.equals(b)); -->true
+//        System.out.println(a==b); //--> false
+//        System.out.println(a.equals(b)); //-->true
 
 //        System.out.println(56);
 //        System.out.println("kunal");

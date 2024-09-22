@@ -2,7 +2,7 @@ package DSA.Math_dsa;
 
 public class Bitwise2 {
     public static void main(String[] args) {
-//        q7 : to do negetaive first do compliment and then add 1 to it
+//        q7 : to do negetaive = first do compliment and then add 1 to it
         int[] arr = {2, 2, 3, 2, 7, 7, 8, 7, 8, 8};
         System.out.println(times(arr));
     }

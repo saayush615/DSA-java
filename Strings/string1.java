@@ -11,16 +11,19 @@ public class string1 {
 //        System.out.println(a==b); //--> false
 //        System.out.println(a.equals(b)); //-->true
 
+//        String a = "Aayush";
+////        System.out.println(a[0]); // -> error
+//        System.out.println(a.charAt(0));
+
 //        System.out.println(56);
 //        System.out.println("kunal");
 //        System.out.println(new int[]{2, 3, 4});
 //
-//        String name = null; 
+//        String name = null;
 //        System.out.println(name);
 
 //        System.out.println((char)('a'+3));
-
-        System.out.println('a'+'b');
+//        System.out.println('a'+'b');
 
 //        Preety printing
 //        System.out.println(Math.PI);
@@ -41,19 +44,34 @@ public class string1 {
 //        System.out.println(series);
 
         //Stringbuilder
-        StringBuilder builder = new StringBuilder();
-        for (int i = 0; i < 26; i++) {
-            char ch = (char)('a'+i);
-            builder.append(ch);
-        }
-        System.out.println(builder);
-        builder.deleteCharAt(0);
-        System.out.println(builder);
-        builder.delete(3,5);
-        System.out.println(builder);
-        System.out.println("  kunal   ".strip());
-        System.out.println("  kunal   ");
+//        StringBuilder builder = new StringBuilder();
+//        for (int i = 0; i < 26; i++) {
+//            char ch = (char)('a'+i);
+//            builder.append(ch);
+//        }
+//        System.out.println(builder);
+//        builder.deleteCharAt(0);
+//        System.out.println(builder);
+//        builder.delete(3,5);
+//        System.out.println(builder);
+//        System.out.println("  kunal   ".strip());
+//        System.out.println("  kunal   ");
 
+//        String name = new String();
+//        name = "5555";
+//        System.out.println(name.substring(0,0));
+//        System.out.println(name.toCharArray());// convert string to char array
+//        System.out.println(name.length());
+//        StringBuilder a = new StringBuilder();
+//        System.out.println(a.append(name));
+//        System.out.println(a.delete(0,a.length()));
+//        System.out.println(!a.isEmpty());
+
+//        String[] arr = {"flower","flow","flight"};
+//        String prefix = arr[0];
+//        System.out.println(arr[1].indexOf(prefix));
+
+//        System.out.println('b'-'a');
         
 
 

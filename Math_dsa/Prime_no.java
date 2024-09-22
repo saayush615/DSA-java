@@ -73,9 +73,10 @@ public class Prime_no {
 
 
     // Q3: (optimal approach)
+    // false in array means the no. is prime, true is no. is not prime
     static void seive(int n, boolean[] primes){
         for (int i = 2; i*i <= n; i++) {
-            if(!primes[i]){
+            if(!primes[i]){ // initially boolean will contain all the value as false
                 for (int j = i*2; j <= n ; j+=i) {
                     primes[j] = true;
                 }

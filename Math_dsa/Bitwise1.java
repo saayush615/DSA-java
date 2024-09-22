@@ -8,7 +8,7 @@ public class Bitwise1 {
 //        System.out.println(10>n? "yes" : "no");
 
 //        q1
-//        int n = 67;
+//        int n = 55;
 //        System.out.println(isOdd(n));
 
 //        q2
@@ -32,6 +32,17 @@ public class Bitwise1 {
 //        System.out.println(Integer.toBinaryString(num));
 //        int position = 2;
 //        System.out.println(Integer.toBinaryString(reset_bit(num, position)));
+
+//        question 10 (imp concept)
+//        int n = 34567;
+//        int b = 10;
+//        int ans = (int)(Math.log(n) / Math.log(b));
+//        System.out.println(ans);
+
+//        q11:pascal triangle
+//        int n = 5; // Example: 5th row of Pascal's Triangle(starting from the 1st row)
+//        int sum = sumOfNthRowInPascalsTriangle(n);
+//        System.out.println("Sum of the " + n + "th row in Pascal's Triangle is: " + sum);
     }
 
 
@@ -65,5 +76,10 @@ public class Bitwise1 {
 //    q6 : reset
 //    private static int reset_bit(int num, int pos) {
 //        return num & ~(1 << (pos-1));
+//    }
+
+//    q11: pascal triangle
+//    private static int sumOfNthRowInPascalsTriangle(int n) {
+//        return 1 << n-1;  // This is equivalent to 2^n
 //    }
 }

@@ -1,4 +1,4 @@
-package DSA.Reccursion_Lvl_1;
+package DSA.Recursion.Reccursion_Lvl_1;
 
 public class N_to_1 {
     public static void main(String[] args) {
@@ -53,7 +53,7 @@ public class N_to_1 {
 //        return n * fact(n-1);
 //    }
 
-    //Q5: factorial
+//    //Q5: sum of digit
 //    static int sum(int n){
 //        if (n == 0){
 //            return 0;

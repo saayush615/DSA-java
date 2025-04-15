@@ -18,11 +18,12 @@ public class factors {
 
 
     // better approach
+    // o(sqrt(n))
 //    static void factor2(int n){
 //        for (int i = 1; i <= Math.sqrt(n); i++) {
 //            if (n%i == 0){
-//                // this is else is to avoid the repeating of number for ex: if 36 it will print 6 two times
-////               or simply ignorig the dublicate roots
+//                // the down if condition is there bcoz it avoid adding value 2 times like in case of 36 it will add 6
+//                   two times there . so if 36/6 = 6 which means 6*6 = 36 then print 6 only one time
 //                if (n / i == i) {
 //                    System.out.print(i+ " ");
 //                }else {

@@ -1,4 +1,4 @@
-package DSA.Reccursion_Lvl_1;
+package DSA.Recursion.Reccursion_Lvl_1;
 
 public class concept2 {
     public static void main(String[] args) {

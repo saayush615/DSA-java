@@ -47,26 +47,26 @@ public class Bitwise1 {
 
 
     //q1
-//    private static boolean isOdd(int n) {
-//        return (n&1) == 1;
-//    }
+    private static boolean isOdd(int n) {
+        return (n&1) == 1;
+    }
 
     //q2
-//    private static int ans(int[] arr) {
-//        int unique = 0;
-////        just xor every no.
-//        for (int n : arr){
-//            unique ^= n;
-//        }
-//        return unique;
-//    }
+    private static int ans(int[] arr) {
+        int unique = 0;
+//        just xor every no.
+        for (int n : arr){
+            unique ^= n;
+        }
+        return unique;
+    }
 
     //q4
-//    private static int find_bit(int num, int pos) {
-//        return (num & (1 << (pos - 1))) >> (pos - 1);
-//        // or
-////        return (num >> (pos -1)) & (pos -1);
-//    }
+    private static int find_bit(int num, int pos) {
+        return (num & (1 << (pos - 1))) >> (pos - 1);
+        // or
+//        return (num >> (pos -1)) & (pos -1);
+    }
 
     // q5 :set
 //    private static int set_bit(int num, int position) {

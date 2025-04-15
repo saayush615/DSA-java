@@ -30,6 +30,7 @@ public class squareroot {
                 s = m + 1;
             }
         }
+        root = e;
 
         // for the decimal value
         double incr = 0.1;

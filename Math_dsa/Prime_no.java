@@ -18,13 +18,16 @@ public class Prime_no {
 //            System.out.println("the number is not prime");
 //        }
 
-        //Q2:
+        //Q2: If prime then true otherwise false
 //        int n = 20;
 //        for (int i =1; i <= n ; i++){
 //            System.out.println(i + " " + isprime(i));
 //        }
 
-//        Q3:(brute force)
+//        Checking one number: O(√n)
+//         Looping from 1 to n: O(n√n)
+
+//        Q3:(brute force) print only prime no.
 //        int n = 20;
 //        for (int i =1; i <= n ; i++){
 //            if(isprime2(i)){
